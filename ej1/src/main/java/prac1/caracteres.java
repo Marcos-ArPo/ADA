@@ -1,4 +1,4 @@
-package main.java.prac1;
+package prac1;
 
 import java.io.*;
 

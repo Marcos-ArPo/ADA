@@ -1,4 +1,4 @@
-package clasefile;
+package prac1;
 
 import java.io.*;
 
