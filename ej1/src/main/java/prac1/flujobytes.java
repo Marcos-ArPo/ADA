@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class flujobytes {
     public static void main(String[] args) {
         System.out.println();
-        // ej1();
+        ej1();
         System.out.println();
         ej2();
         System.out.println();
