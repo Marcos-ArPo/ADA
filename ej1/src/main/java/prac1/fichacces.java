@@ -1,7 +1,6 @@
 package prac1;
 
 import java.io.*;
-import java.util.*;
 
 public class fichacces {
     public static void main(String[] args) {
@@ -38,13 +37,13 @@ public class fichacces {
     public static void ej2() {
         try (RandomAccessFile raf = new RandomAccessFile(new File("./numeros.txt"), "rw")) {
             FileWriter fw = new FileWriter("./numeros.txt");
-            Scanner sc = new Scanner(System.in);
+            BufferedReader bf =new BufferedReader(new InputStreamReader(System.in));
 
             int n  = 1;
 
             System.out.println("Escribe 0 para terminar");
             while (n != 0) {
-                n = sc.nextInt();
+                n = Integer.parseInt(bf.readLine());
                 fw.write(n);
             }
 
@@ -62,7 +61,7 @@ public class fichacces {
             }
 
             fw.close();
-            sc.close();
+            bf.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
