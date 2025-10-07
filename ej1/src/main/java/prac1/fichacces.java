@@ -20,7 +20,7 @@ public class fichacces {
                     n = raf.readByte();
                     if (n == ' ') {
                         raf.seek(raf.getFilePointer() - 1);
-                        raf.writeByte(0);
+                        raf.writeByte(127);
                     }
                 }
             } catch (EOFException e) {
