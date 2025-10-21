@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libreria>
+        
+    <nombre>Libreria Pepe</nombre>
+        
+    <libros/>
+    
+    <libro isbn="1234567890">
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor>Miguel de Cervantes</autor>
+    </libro>
+    <libro isbn="2345678901">
+        <titulo>Lazarillo de Tormes</titulo>
+        <autor>Anonimo</autor>
+    </libro>
+    <libro isbn="4567890123">
+        <titulo>La vida es un sueño</titulo>
+        <autor>Pedro Calderón de la Barca</autor>
+    </libro>
+</libreria>
