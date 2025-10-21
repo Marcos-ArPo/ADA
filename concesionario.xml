@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<concesionario>
+        
+    <nombre>Concesionario Pitillo</nombre>
+        
+    <direccion>Calle Peo 69</direccion>
+        
+    <coches>
+        <coche matricula="1234ABC">
+            <marca>Toyota</marca>
+            <modelo>Corolla</modelo>
+            <kms>50000</kms>
+            <estado>1</estado>
+            <fabricacion>2018</fabricacion>
+        </coche>
+        <coche matricula="5678DEF">
+            <marca>Honda</marca>
+            <modelo>Civic</modelo>
+            <kms>30000</kms>
+            <estado>2</estado>
+            <fabricacion>2020</fabricacion>
+        </coche>
+    </coches>
+    
+</concesionario>

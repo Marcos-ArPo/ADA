@@ -54,7 +54,7 @@ public class ej1 {
         libroElem.appendChild(tituloElem);
         libroElem.appendChild(autorElem);
         libroElem.setAttribute("isbn", isbn);
-        doc.getDocumentElement().appendChild(libroElem);
+        doc.getDocumentElement().getElementsByTagName("libros").item(0).appendChild(libroElem);
     }
 
     public static void crearXML(String ruta) throws Exception {
