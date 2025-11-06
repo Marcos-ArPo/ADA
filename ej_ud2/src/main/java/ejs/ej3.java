@@ -9,9 +9,9 @@ public class ej3 {
         // ap2(1100, 1200);
         // System.out.println("--------------------------");
         // ap2(1300, 1400);
-        ap3("SE");
-        System.out.println("--------------------------");
-        ap3("OS");
+        // ap3("SE");
+        // System.out.println("--------------------------");
+        // ap3("OS");
         // ap4();
         // ap5();
         // ap6();
