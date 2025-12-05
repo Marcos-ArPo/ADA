@@ -22,7 +22,7 @@ public class Conferencia {
     @Column
     private int NumeroHoras;
 
-    @OneToMany (mappedBy = "Conferencia", cascade = CascadeType.ALL)
+    @OneToMany (mappedBy = "conferencia", cascade = CascadeType.ALL)
     private List <inv_conf> inv_conf;
 
     public Conferencia() {

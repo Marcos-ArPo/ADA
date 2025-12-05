@@ -6,10 +6,12 @@ import jakarta.persistence.*;
 @Table (name = "inv_conf")
 public class inv_conf {
 
+    @EmbeddedId
     @ManyToOne
     @JoinColumn (name = "dni_inv")
     private Investigador investigador;
 
+    @EmbeddedId
     @ManyToOne
     @JoinColumn (name = "nom_con")
     private Conferencia conferencia;

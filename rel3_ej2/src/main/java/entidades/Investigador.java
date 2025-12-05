@@ -28,7 +28,7 @@ public class Investigador {
     @Column (length = 50)
     private String Localidad;
 
-    @OneToMany (mappedBy = "Investigador", cascade = CascadeType.ALL)
+    @OneToMany (mappedBy = "investigador", cascade = CascadeType.ALL)
     private List <inv_conf> inv_conf;
 
     public Investigador() {

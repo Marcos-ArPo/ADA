@@ -15,7 +15,7 @@ public class Proyecto {
     @Column
     private Date FechaInicio;
 
-    @OneToMany (mappedBy = "Proyecto")
+    @OneToMany (mappedBy = "DNI")
     private List <Investigador> investigadores;
 
     public Proyecto() {
